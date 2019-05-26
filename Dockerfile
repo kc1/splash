@@ -36,9 +36,9 @@ VOLUME [ \
     "/etc/splash/lua_modules" \
 ]
 
-EXPOSE 8050
+#EXPOSE 8050
 
-ENTRYPOINT [ \
+CMD [ \
     "python3", \
     "/app/bin/splash", \
     "--proxy-profiles-path", "/etc/splash/proxy-profiles", \
