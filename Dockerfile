@@ -44,5 +44,5 @@ CMD [ \
     "--proxy-profiles-path", "/etc/splash/proxy-profiles", \
     "--js-profiles-path", "/etc/splash/js-profiles", \
     "--filters-path", "/etc/splash/filters", \
-    "--lua-package-path", "/etc/splash/lua_modules/?.lua" \
+    "--lua-package-path", "/etc/splash/lua_modules/?.lua --port $PORT" \
 ]
